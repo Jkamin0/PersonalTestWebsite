@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+</head>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1>Resume</h1>
+  <h2>Jacob Smith</h2>
+  <h2><a href="{{url_for('about_me')}}"> About me Page, click here to open a linked page! </a></h2>
+  <hr />
+  <br>
+  <p class="head">Interests</p>
+  <ul>
+    <li>Programming</li>
+    <li>Data Engineering</li>
+    <li>Food</li>
+    <li>Video games</li>
+    <li>Computers</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>Web Design with HTML & CSS</li>
+    <li>Software Development with Python</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <a href="https://www.svsd410.org/mshs">
+      <li>Mount Si High School</li>
+    </a>
+    <!--Link-->
+    <a href="https://www.bellevuecollege.edu/">
+      <li>Bellevue College</li>
+    </a>
+    <li>Utah State University</li>
+  </ul>
+  <p class="head">Experience</p>
+  <ul>
+    <li>Date Engineer Intern for Walker Edison</li>
+    <li>Data Analystic for Utah State University</li>
+  </ul>
+  <p class="head">Extracurriculars</p>
+  <ul>
+    <li>Linux/Free Software club</li>
+  </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Jacob</h2></div>
+</html>
